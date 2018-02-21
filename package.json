@@ -1,0 +1,17 @@
+{
+  "name": "file-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -s -o"
+  },
+  "author": "Prakhar Upadhyay",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

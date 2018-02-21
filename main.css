@@ -1,0 +1,93 @@
+html, body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.page-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.file-window ul {
+    padding: 0;
+    margin: 0;
+}
+
+.file-window li {
+    display: none;
+    float: left;
+    box-sizing: border-box;
+    width: 124px;
+    height: 124px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #03a9f4;
+    margin: 0 38px 45px 0;
+    border-radius: 10px;
+}
+
+.file-window li span {
+    position: relative;
+    top: 120px;
+}
+
+.file-window li.active {
+    display: block;
+}
+
+.file-window li.active-tree.folder, .file-window li.active-tree.file {
+    display: block;
+    height: auto;
+    width: auto;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
+.file-window li.active-tree > span {
+    display: none;
+}
+
+.file-window li.folder {
+    background-image: url(./assets/icons/folder.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.file-window li.folder.active:hover {
+    border: 4px double #03a9f4;
+}
+
+.file-window li.file {
+    background-image: url(./assets/icons/file.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.no-file-window {
+    display: none;
+    height: 100px;
+    text-align: center;
+}
+
+.back-btn {
+    display: inline-block;
+    background: url(./assets/icons/navigate_before.svg) no-repeat;
+    height: 48px;
+    width: 48px;
+    background-size: 100%;
+    border: 1px solid #03a9f4;
+    border-radius: 100%; 
+}

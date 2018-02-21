@@ -1,0 +1,119 @@
+{
+    "root": [
+        {
+            "name": "Folder 1",
+            "type": "folder",
+            "contents": [
+                {
+                    "name": "Sub Folder 1",
+                    "type": "folder",
+                    "contents": []
+                },
+                {
+                    "name": "Sub Folder 2",
+                    "type": "folder",
+                    "contents": []
+                },
+                {
+                    "name": "Sub Folder 3",
+                    "type": "folder",
+                    "contents": []
+                },
+                {
+                    "name": "File 1",
+                    "type": "file",
+                    "contents": []
+                },
+                {
+                    "name": "File 2",
+                    "type": "file",
+                    "contents": []
+                }
+            ]
+        },
+        {
+            "name": "Folder 2",
+            "type": "folder",
+            "contents": [
+                {
+                    "name": "Sub Folder 1",
+                    "type": "folder",
+                    "contents": []
+                },
+                {
+                    "name": "Sub Folder 2",
+                    "type": "folder",
+                    "contents": []
+                },
+                {
+                    "name": "File 1",
+                    "type": "file",
+                    "contents": []
+                }
+            ]
+        },
+        {
+            "name": "Folder 3",
+            "type": "folder",
+            "contents": [
+                {
+                    "name": "Sub Folder 1",
+                    "type": "folder",
+                    "contents": [
+                        {
+                            "name": "Sub Sub Folder 1",
+                            "type": "folder",
+                            "contents": []
+                        },
+                        {
+                            "name": "File 1",
+                            "type": "file",
+                            "contents": []
+                        }
+                    ]
+                },
+                {
+                    "name": "File 1",
+                    "type": "file",
+                    "contents": []
+                }
+            ]
+        },
+        {
+            "name": "File 1",
+            "type": "file",
+            "contents": []
+        },
+        {
+            "name": "File 2",
+            "type": "file",
+            "contents": []
+        },
+        {
+            "name": "File 3",
+            "type": "file",
+            "contents": []
+        },
+        {
+            "name": "Folder 4",
+            "type": "folder",
+            "contents": [
+                {
+                    "name": "File 1",
+                    "type": "file",
+                    "contents": []
+                },
+                {
+                    "name": "File 2",
+                    "type": "file",
+                    "contents": []
+                },
+                {
+                    "name": "File 3",
+                    "type": "file",
+                    "contents": []
+                }
+            ]
+        }
+    ]
+}
